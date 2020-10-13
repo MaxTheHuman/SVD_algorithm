@@ -1,13 +1,13 @@
-# Сингулярное разложение матрицы
+# Singular value decomposition
 
-Исполняющий код находится в main.cpp. Он считывает размеры матрицы и саму матрицу из файла input.txt, выполняет разложение и записывает левые и правые сингулярные векторы и сингулярные значения в файлы "left_singular_vectors.txt", "right_singular_vectors.txt" и "singular_values.txt" соответственно.
+The code runs in main.cpp. It reads dimensions and matrix itself from file input.txt, makes decomposition and writes left and right singular vectors and eigenvalues into files "left_singular_vectors.txt", "right_singular_vectors.txt" and "singular_values.txt" accordingly.
 
-Программа реализует алгоритм, описанный на странице: http://www.machinelearning.ru/wiki/index.php?title=Сингулярное_разложение_тензоров
+This is implementation of an algorithm described here: http://www.machinelearning.ru/wiki/index.php?title=Сингулярное_разложение_тензоров
 
-Сложность алгоритма - O(nm^2), где m - меньший из размеров матрицы (n - больший).
+Complexity is O(nm^2), where m is smallest of matrix dimension.
 
-В файл vector_math.h вынесены необходимые для алгоритма функции с объектами типа std::vector&lt;double>.
+File vector_math.h contains all nessecary functions to work with vector of doubles.
 
-В файле matrix_class.h находится описание класса матрицы, использующегося в реализации.
+File matrix_class.h contains class of matrix with needed methods.
 
-В файле matrix_math.h находится сама функция декомпозиции и вспомогательные функции.
+File matrix_math.h contains decomposition function and helper functions.
