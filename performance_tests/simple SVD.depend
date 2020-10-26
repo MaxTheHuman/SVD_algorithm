@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1534459820 source:c:\users\max\c++\simple svd\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<cstdlib>
+	<ctime>
+	<cmath>
+
+1536242936 source:c:\users\max\programming\c++\simple svd\main.cpp
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<fstream>
+	<iostream>
+	<time.h>
+	<vector>
+
