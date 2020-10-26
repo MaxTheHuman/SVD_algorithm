@@ -29,6 +29,8 @@ public:
 
     const std::vector<double>& operator[](size_t i) const;
 
+    std::vector<double>& operator[](size_t i);
+
     int get_rows_number() const;
 
     int get_columns_number() const;

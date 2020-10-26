@@ -6,9 +6,8 @@
 #include <utility>
 #include <vector>
 
-// #include "../math/vector_math.h"
-#include "../matrix/matrix_class.h"
 #include "../math/matrix_math.h"
+#include "../matrix/matrix_class.h"
 
 
 template <typename T>

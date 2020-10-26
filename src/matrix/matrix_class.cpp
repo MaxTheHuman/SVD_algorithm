@@ -56,6 +56,10 @@
         return data[i];
     }
 
+    std::vector<double>& Matrix::operator[](size_t i) {
+        return data[i];
+    }
+
     int Matrix::get_rows_number() const {
         return n;
     }

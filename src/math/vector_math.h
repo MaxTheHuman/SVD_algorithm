@@ -12,3 +12,5 @@ void fill_random_vector(std::vector<double>& v);
 
 double scalar_composition(const std::vector<double>& a,
                           const std::vector<double>& b);
+
+void transpose(std::vector<std::vector<double> >& m);
