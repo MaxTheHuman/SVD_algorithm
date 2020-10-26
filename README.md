@@ -15,8 +15,8 @@ This is implementation of an algorithm described here: http://www.machinelearnin
 
 Complexity is O(nm^2), where m is the smallest of matrix dimension.
 
-File vector_math.h contains all nessecary functions to work with vector of doubles.
+File /src/matrix/matrix_class.h contains class of matrix with needed methods.
 
-File matrix_class.h contains class of matrix with needed methods.
+File /src/math/vector_math.h contains all nessecary functions to work with vector of doubles.
 
-File matrix_math.h contains decomposition function and helper functions.
+File /src/math/matrix_math.h contains decomposition function and helper functions.
