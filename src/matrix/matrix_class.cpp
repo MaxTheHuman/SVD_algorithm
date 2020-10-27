@@ -1,3 +1,8 @@
+#include <fstream>
+#include <iostream>
+#include <math.h>
+#include <vector>
+
 #include "matrix_class.h"
 
     Matrix::Matrix(int rows_number, int columns_number) :

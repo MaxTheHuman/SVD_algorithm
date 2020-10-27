@@ -6,10 +6,9 @@
 #include <utility>
 #include <vector>
 
-#include "../src/matrix/matrix_class.h"
-#include "../src/math/vector_math.h"
-#include "../src/math/matrix_math.h"
-
+#include "../../src/matrix/matrix_class.h"
+#include "../../src/math/vector_math.h"
+#include "../../src/math/matrix_math.h"
 
 using namespace std;
 

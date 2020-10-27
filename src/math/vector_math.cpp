@@ -1,3 +1,8 @@
+#include <cmath>
+#include <cstdlib>
+#include <time.h>
+#include <vector>
+
 #include "vector_math.h"
 
 

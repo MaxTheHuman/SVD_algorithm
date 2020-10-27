@@ -1,8 +1,5 @@
 #pragma once
 
-#include <math.h>
-#include <time.h>
-#include <utility>
 #include <vector>
 
 #include "vector_math.h"

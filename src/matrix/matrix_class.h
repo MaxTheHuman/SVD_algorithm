@@ -1,7 +1,7 @@
 #pragma once
-#include <fstream>
+// #include <fstream>
 #include <iostream>
-#include <math.h>
+// #include <math.h>
 #include <vector>
 
 #include "../math/vector_math.h"

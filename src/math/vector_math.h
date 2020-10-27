@@ -1,8 +1,5 @@
 #pragma once
 
-#include <cmath>
-#include <cstdlib>
-#include <time.h>
 #include <vector>
 
 
